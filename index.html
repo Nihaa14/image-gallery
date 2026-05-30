@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celebrity Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Celebrity Image Gallery</h1>
+
+<div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('allu')">Allu Arjun</button>
+    <button onclick="filterImages('burmah')">Burmah</button>
+    <button onclick="filterImages('samantha')">Samantha</button>
+    <button onclick="filterImages('rashmika')">Rashmika</button>
+</div>
+
+<div class="gallery">
+
+    <div class="image allu">
+        <img src="images/allu1.jpg" alt="">
+    </div>
+
+    <div class="image allu">
+        <img src="images/allu2.jpg" alt="">
+    </div>
+
+    <div class="image allu">
+        <img src="images/allu3.jpg" alt="">
+    </div>
+
+    <div class="image burmah">
+        <img src="images/burmah1.jpg" alt="">
+    </div>
+
+    <div class="image burmah">
+        <img src="images/burmah2.jpg" alt="">
+    </div>
+    <div class="image burmah">
+        <img src="images/burmah3.jpg" alt="">
+    </div>
+
+    <div class="image samantha">
+        <img src="images/samantha1.jpg" alt="">
+    </div>
+
+    <div class="image samantha">
+        <img src="images/samantha2.jpg" alt="">
+    </div>
+    <div class="image samantha">
+        <img src="images/samantha3.jpg" alt="">
+    </div>
+
+    <div class="image rashmika">
+        <img src="images/rashmika1.jpg" alt="">
+    </div>
+
+    <div class="image rashmika">
+        <img src="images/rashmika2.jpg" alt="">
+    </div>
+    <div class="image rashmika">
+        <img src="images/rashmika3.jpg" alt="">
+    </div>
+
+</div>
+
+<div class="lightbox">
+    <span class="close">&times;</span>
+    <button class="prev">&#10094;</button>
+    <img class="lightbox-img">
+    <button class="next">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
